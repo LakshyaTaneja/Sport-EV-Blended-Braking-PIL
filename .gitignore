@@ -1,0 +1,23 @@
+# MATLAB generated files
+slprj/
+*.slxc
+*.mexw64
+*.mexa64
+*.tf
+*.ld
+*.o
+*.obj
+*.elf
+*.map
+*.autosave
+
+# Embedded Coder Build Folders
+*_ert_rtw/
+*_pil_rtw/
+
+# CubeMX temporary files
+.mxproject
+*.bak
+
+# Python cache
+__pycache__/
