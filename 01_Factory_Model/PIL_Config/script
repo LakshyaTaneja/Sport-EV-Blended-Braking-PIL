@@ -1,0 +1,10 @@
+config load "C:\STM32_PIL_POTS\PIL_Config\PIL_Config.ioc"
+project toolchain STM32CubeIDE
+
+SetStructure Advanced
+
+project setCustomFWPath "C:\Users\Lakshay Taneja\Music\Addons\STM32Cube_FW_F4_V1.28.0"
+
+project generate 
+
+exit wait
