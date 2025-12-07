@@ -41,15 +41,15 @@ The control logic was validated using **Processor-in-the-Loop (PIL)** methodolog
 * **Result:** Smooth deceleration; Battery SoC **RISES** (Kinetic $\to$ Chemical Energy).
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/793e0a98-b76b-48c5-bbc9-30ac14e6426a" width="80%" alt="Vehicle Speed Profile" />
+  <img src="https://github.com/user-attachments/assets/92ae6c2b-c4cc-4c8d-bb03-b4e2850d99c5" width="80%" alt="Vehicle Speed Profile" />
 </p>
 
 ### Scenario B: Panic Stop
 * **Action:** Apply 100% Brake at 155 km/h.
-* **Result:** Regen saturates at -2500 Nm; Friction spikes to **-4000 Nm**; Vehicle stops in < 4.5s ($1.0g$).
+* **Result:** : Initially peaked at **-1200 Nm** (Field Weakening limit), then linearly increased to **-2500 Nm** as speed dropped. Friction brakes immediately filled the torque gap. Vehicle stopped in < 4.5s at steady **1.0g** deceleration. Dynamic blending successfully validated.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/bd4e6340-0bba-4471-964f-b823c64041c1" width="90%" alt="Panic Stop Graphs" />
+  <img src="https://github.com/user-attachments/assets/4c2a85bd-e787-49e1-b156-26b80339c000" width="90%" alt="Panic Stop Graphs" />
 </p>
 
 ## How to Run This Project
