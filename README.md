@@ -13,7 +13,7 @@ The controller maximizes **regenerative braking energy recovery** while ensuring
 The control logic is designed in **Simulink**, auto-generated into **C code**, and validated on an **STM32F446RE** microcontroller using:
 
 * **Processor-in-the-Loop (PIL)**
-* **Hardware-in-the-Loop (HIL)** testing
+* **Hardware-in-the-Loop (HIL)**
 
 ---
 
