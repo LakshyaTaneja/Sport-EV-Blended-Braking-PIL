@@ -1,0 +1,11 @@
+# MATLAB generated files
+*.autosave
+*.slxc
+slprj/
+_ert_rtw/
+*.mat
+!Init_Params.mat  # Do not ignore parameter files
+
+# System files
+.DS_Store
+Thumbs.db
